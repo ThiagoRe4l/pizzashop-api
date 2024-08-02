@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable drizzle/enforce-delete-with-where */
 
 import {
@@ -55,7 +56,7 @@ const [manager] = await db
   .insert(users)
   .values({
     name: faker.person.fullName(),
-    email: 'diego.schell.f@gmail.com',
+    email: 'tl7thiago@gmail.com',
     role: 'manager',
   })
   .returning()
